@@ -4,9 +4,6 @@ feeds:
   - name: helloworld
     uri: https://github.com/fw876/helloworld.git
     branch: master
-  - name: lede
-    uri: https://github.com/coolsnowwolf/luci
-    branch: master
 packages:
   - luci-app-ssr-plus
   - luci-app-ddns
@@ -16,13 +13,11 @@ packages:
   - luci-app-uhttpd
   - dnsmasq-full
   - luci-app-commands
-  - luci-app-mwan3
   - luci-app-wireguard
   - wireguard
   - luci-app-eqos
   - wireguard-tools
   - luci-app-zerotier
-  - luci-app-wol
 
 
 
